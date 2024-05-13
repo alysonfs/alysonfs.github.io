@@ -1,0 +1,17 @@
+{
+  "name": "repo",
+  "version": "1.0.0",
+  "description": "Monorepo com paginas que posso ou não servir no git",
+  "author": "Alyson Souza",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "packageManager": "yarn@1.22.22",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
