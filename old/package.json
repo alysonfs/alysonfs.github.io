@@ -1,8 +1,0 @@
-{
-	"name": "alysonfs.github.io",
-	"version": "1.0.0",
-	"main": "index.js",
-	"repository": "https://github.com/alysonfs/alysonfs.github.io.git",
-	"author": "Alyson F Souza <alysonforever@gmail.com>",
-	"license": "MIT"
-}
