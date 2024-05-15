@@ -1,3 +1,5 @@
+"user client"
+
 import Header from "./components/header/header";
 import ContactSection from "./components/section/contact-section";
 import InitialSection from "./components/section/initial-section";
