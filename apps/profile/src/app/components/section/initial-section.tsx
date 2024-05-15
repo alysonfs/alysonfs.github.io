@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { type MouseEvent, useEffect, useState } from "react";
 import { useClientSize } from "@/hooks";
-import bgBackend from "@/public/bg_backend.jpg";
-import bgFrontend from "@/public/bg_frontend.jpg";
+import backend from "@/public/backend.png";
+import frontend from "@/public/frontend.png";
 
 export default function InitialSection() {
 	const { width: widthScreen } = useClientSize();
@@ -59,14 +59,14 @@ export default function InitialSection() {
 		<section className="relative flex flex-col items-center justify-start h-2/3 bg-black w-full">
 			<div className="absolute top-0 flex flex-row w-full h-full">
 				<Image
-					src={bgBackend}
+					src={backend}
 					className="absolute top-0 h-full object-cover object-center lg:object-left-top"
 					alt="Background backend"
 					width={1440}
 					height={740}
 				/>
 				<Image
-					src={bgFrontend}
+					src={frontend}
 					className="absolute top-0 h-full hidden lg:block lg:object-cover lg:object-right-top"
 					alt="Background frontend"
 					width={1440}
