@@ -19,6 +19,8 @@
     ],
     "paths": {
       "@/ui/*": ["./src/ui/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/hooks/*": ["./src/hooks/*"],
       "@/*": ["./src/*"]
     }
   },
