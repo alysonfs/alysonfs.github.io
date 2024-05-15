@@ -57,14 +57,14 @@ export default function InitialSection() {
 		<section className="relative flex flex-col items-center justify-start h-2/3 bg-black w-full">
 			<div className="absolute top-0 flex flex-row w-full h-full">
 				<Image
-					src="/bg_backend.jpg"
+					src={"https://alysonfs.github.io/bg_backend.jpg" || "/bg_backend.jpg"}
 					className="absolute top-0 h-full object-cover object-center lg:object-left-top"
 					alt="Background backend"
 					width={1440}
 					height={740}
 				/>
 				<Image
-					src="/bg_frontend.jpg"
+					src={"https://alysonfs.github.io/bg_frontend.jpg" || "/bg_frontend.jpg"}
 					className="absolute top-0 h-full hidden lg:block lg:object-cover lg:object-right-top"
 					alt="Background frontend"
 					width={1440}
@@ -103,14 +103,14 @@ export default function InitialSection() {
 							os princípios do <span className="font-bold">SOLID</span>. Com
 							habilidades sólidas em design de APIs{" "}
 							<span className="font-bold">REST</span> e{" "}
-							<span className="font-bold">GraphQL</span> e integração de bancos de
-							dados <span className="font-bold">Relacionais</span> e{" "}
+							<span className="font-bold">GraphQL</span> e integração de bancos
+							de dados <span className="font-bold">Relacionais</span> e{" "}
 							<span className="font-bold">NoSql</span>, contribuo para o
 							desenvolvimento de soluções robustas e de alta qualidade. Além
 							disso, tenho experiência em arquitetura na{" "}
 							<span className="font-bold">AWS</span>, utilizando práticas de{" "}
-							<span className="font-bold">IaC</span> (Infrastructure as Code) para
-							garantir a consistência e escalabilidade da infraestrutura.
+							<span className="font-bold">IaC</span> (Infrastructure as Code)
+							para garantir a consistência e escalabilidade da infraestrutura.
 						</p>
 					</div>
 
