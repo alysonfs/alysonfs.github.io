@@ -13,9 +13,9 @@ export default function ContactSection() {
 	return (
 		<section
 			id="contact"
-			className="relative flex flex-col justify-start bg-white w-full h-full"
+			className="relative flex flex-col lg:h-1/2 justify-start bg-white w-full"
 		>
-			<div className="relative flex flex-col flex-1 justify-start w-full h-full items-center gap-8">
+			<div className="relative flex flex-col justify-start w-full h-full items-center gap-8">
 				<h2 className="text-2xl text-center">
 					Fique a vontade para entrar em contato comigo
 				</h2>

@@ -56,18 +56,18 @@ export default function InitialSection() {
 	}
 
 	return (
-		<section className="relative flex flex-col items-center justify-start h-2/3 bg-black w-full">
+		<section className="relative flex flex-col items-center justify-start h-2/3 lg:h-1/2 bg-black w-full">
 			<div className="absolute top-0 flex flex-row w-full h-full">
 				<Image
 					src={backend}
-					className="absolute top-0 h-full object-cover object-center lg:object-left-top"
+					className="absolute top-0 h-full w-full object-cover object-center lg:object-left-top"
 					alt="Background backend"
 					width={1440}
 					height={740}
 				/>
 				<Image
 					src={frontend}
-					className="absolute top-0 h-full hidden lg:block lg:object-cover lg:object-right-top"
+					className="absolute top-0 h-full w-full hidden lg:block lg:object-cover lg:object-right-top"
 					alt="Background frontend"
 					width={1440}
 					height={740}
